@@ -1,0 +1,109 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border:1px solid #e6e6e6;
+    border-radius: 20px;
+    margin:2%;
+    padding:2%;
+}
+h1{
+    color:black;
+    text-align: center;
+}
+h3 {
+    border-bottom:1px solid aquamarine;
+    padding:1%;
+}
+
+button{
+    background-color: #12CD44;
+    width:200px;
+    height: 50px;
+    color:black;
+    font-weight: bold;
+    margin-left: 2%;
+    border-radius: 20px;
+    border:0;
+    cursor: pointer;
+}
+button:hover, button.active{
+    color:#12CD44;
+    background-color: black;
+    border:1px solid #12CD44;
+}
+
+table{
+    margin-top:20px;
+    margin-left: 2%;
+    border:1px solid blue;
+    width:650px;
+    border-radius: 20px;
+}
+tr:nth-child(even){
+    background-color: cornflowerblue;
+    color:white;
+}
+
+th{
+    padding: 3%;
+    padding-bottom:1%;
+    border-bottom:1px solid blue;
+}
+
+td{
+    padding: 3%;
+    padding-bottom:1%;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container .card
+{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover
+{
+    transform: translateY(-15px);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.card .tamanio
+{
+    max-width: 50 px;
+    max-height: 50 px;
+}
+.card h5
+{
+    font-weight: 600;
+}
+p
+{
+    color: red;
+}
+#texto
+{
+    color: black;
+}
+input
+{
+    border-color: #e6e6e6;
+    border-radius: 5px;
+}
